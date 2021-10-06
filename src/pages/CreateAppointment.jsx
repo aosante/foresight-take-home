@@ -93,7 +93,6 @@ const CreateAppointment = () => {
         <LocalizationProvider dateAdapter={AdapterDateFns}>
           <DateTimePicker
             label="Appointment Start Time"
-            error={true}
             value={appointmentDate}
             onChange={(newValue) => {
               setAppointmentDate(newValue);
