@@ -10,6 +10,7 @@ REACT_APP_BASE_URL=https://fs-appointments.herokuapp.com/api
 REACT_APP_CSRF_TOKEN=<replace with csrf_token for POST requests>
 ```
 
+- Run `npm install` to install project dependencies
 - Run the project by running `npm start`
 
 ## Potential Improvements
